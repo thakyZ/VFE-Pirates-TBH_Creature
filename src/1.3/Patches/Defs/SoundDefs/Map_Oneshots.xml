@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Pirates</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/SoundDef[defName="VFEP_ConfettiExplosion"]/subSounds/li/grains/li[Class="AudioGrain_Folder"]/clipFolderPath</xpath>
+      <value>Curses/ConfettiCheer_SoundEffect_TBH_Creature</value>
+    </match>
+  </Operation>
+</Patch>
